@@ -1,0 +1,51 @@
+
+Feb 14, 2025 14:52:00.89 NEW SESSION
+Feb 14, 2025 14:52:00.90 [10816:10652:0214/145200.893:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 14:52:03.20 Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 14, 2025 14:52:03.69 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Feb 14, 2025 14:52:29.66 [10816:10652:0214/145229.664:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 14:53:16.58 [10816:10652:0214/145316.579:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 14:54:57.34 [10816:10652:0214/145457.345:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 14:58:20.69 [10816:10652:0214/145820.693:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 15:04:16.38 [10816:10652:0214/150416.379:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 15:18:57.62 [10816:8576:0214/151857.620:ERROR:device_event_log_impl.cc(199)] [15:18:57.620] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 14, 2025 16:01:27.94 Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 14, 2025 16:01:27.94 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Feb 14, 2025 16:01:27.96 [12556:12844:0214/160127.965:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 16:01:57.67 [12556:12844:0214/160157.677:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Feb 14, 2025 16:05:04.30 Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 14, 2025 16:05:04.30 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Feb 14, 2025 16:05:04.36 [12732:12636:0214/160504.365:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 16:05:31.67 [12732:12636:0214/160531.678:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 16:06:31.07 [12732:12636:0214/160631.071:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 16:08:05.78 [12732:12636:0214/160805.788:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 16:12:04.35 [12732:12636:0214/161204.350:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 16:18:36.77 [12732:12636:0214/161836.779:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 14, 2025 16:19:56.00 [12732:12636:0214/161956.000:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Feb 14, 2025 19:20:09.57 [12732:12636:0214/192009.574:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Feb 14, 2025 19:20:09.58 [12732:12636:0214/192009.584:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Feb 16, 2025 20:13:21.14 [12732:12636:0216/201321.146:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 16, 2025 20:13:21.28 [12732:12636:0216/201321.284:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 16, 2025 20:13:21.29 [12732:6040:0216/201321.288:ERROR:get_updates_processor.cc(266)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Feb 16, 2025 20:13:21.95 [12732:1372:0216/201321.958:ERROR:usb_descriptors.cc(166)] Device descriptor parsing error.
+Feb 16, 2025 20:13:21.96 [12732:1372:0216/201321.958:ERROR:device_event_log_impl.cc(199)] [20:13:21.959] USB: usb_device_win.cc:95 Failed to read descriptors from \\?\usb#vid_13d3&pid_56b2#5&5f4218d&0&6#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+Feb 16, 2025 20:13:22.47 [12732:12636:0216/201322.479:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 16, 2025 20:13:41.07 [12732:12636:0216/201341.056:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 16, 2025 20:13:51.02 [12732:1372:0216/201351.026:ERROR:usb_descriptors.cc(166)] Device descriptor parsing error.
+Feb 16, 2025 20:13:51.02 [12732:1372:0216/201351.026:ERROR:device_event_log_impl.cc(199)] [20:13:51.039] USB: usb_device_win.cc:95 Failed to read descriptors from \\?\usb#vid_13d3&pid_56b2#5&5f4218d&0&6#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+Feb 16, 2025 20:13:53.85 [12732:1372:0216/201353.853:ERROR:usb_descriptors.cc(166)] Device descriptor parsing error.
+Feb 16, 2025 20:14:01.34 [12732:12636:0216/201401.340:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 16, 2025 20:14:58.59 [12732:12636:0216/201458.598:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 16, 2025 20:16:39.79 [12732:12636:0216/201639.792:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 16, 2025 20:19:59.98 [12732:12636:0216/201959.986:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Feb 16, 2025 20:23:27.63 [12732:12636:0216/202327.638:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Feb 16, 2025 23:41:54.63 [12732:12636:0216/234154.631:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Feb 16, 2025 23:41:57.18 [12732:12636:0216/234157.182:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 16, 2025 23:41:57.45 [12732:12636:0216/234157.454:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Feb 16, 2025 23:42:28.96 [12732:1372:0216/234228.960:ERROR:device_event_log_impl.cc(199)] [23:42:28.960] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 16, 2025 23:42:59.39 [12732:1372:0216/234259.398:ERROR:device_event_log_impl.cc(199)] [23:42:59.399] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 16, 2025 23:42:59.60 [12732:1372:0216/234259.600:ERROR:device_event_log_impl.cc(199)] [23:42:59.601] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 16, 2025 23:42:59.69 [12732:1372:0216/234259.690:ERROR:device_event_log_impl.cc(199)] [23:42:59.691] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 16, 2025 23:43:23.82 [12732:1372:0216/234323.829:ERROR:device_event_log_impl.cc(199)] [23:43:23.829] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 16, 2025 23:43:23.84 [12732:1372:0216/234323.841:ERROR:device_event_log_impl.cc(199)] [23:43:23.841] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Feb 16, 2025 23:43:26.73 [12732:1372:0216/234326.733:ERROR:device_event_log_impl.cc(199)] [23:43:26.730] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)

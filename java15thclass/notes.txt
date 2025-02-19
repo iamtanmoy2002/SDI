@@ -1,0 +1,48 @@
+jsp beans:
+    jsp beans allow separation of business logic from presentation by using javaBeans (POJO) classes javaBeans are reusable, encapsulated java objects that follow sepcific conventions.
+Why use jsp beans?
+    separation of concerns - keeps java code out of jsp making it more maintainable.
+JavaBean Characteristics:
+    a java class with a public no-argument constructor. Uses private fields, 
+
+Using a javaBean in jsp
+to use a javaBean in jsp page, we use <jsp:useBean> tag.
+
+<jsp:useBean id="user" class="Beans.user" scope="session"/>
+id-> Referece name for the bean in JSP.
+class->Fully qualified java class name.
+
+<jsp:setProperty name="user" property="name" value="tan" />
+
+getting bean property:
+    <p>Name:<jsp:getProperty name="user" property="name"/></p>
+
+what is MVC:
+    its a design pattern used in software development to separate concerns within an application. In help organize code, making it more maintainable.
+Model(M) -> Data is Data & business Logic: 
+    represents the application's data and business logic. Communicates with the database and processes information.
+
+View(V) -> Represents the UI seen by the user. Displays data from the model and takes input from the user.
+
+Controller(C) -> request handling, manages user request and interactions. Processes input.
+
+Advantages of MVC:
+    Separation of concerns -> Easier maintence & debugging.
+    Scalability-> Code is modular, allowing future expansion.
+    Reusability-> Components(Model, View, Controller) can be reused.
+
+project
+    src/
+        main/
+        java/
+            DBUtil.java
+            UserDAO.java
+            RegisterServlet.java
+            LoginServlet.java
+        webapp/
+            index.jsp
+            register.jsp
+            login.jsp
+            profile.jsp
+            WEB-INF/
+                lib/ (Place mysql-connector-java.jar here)

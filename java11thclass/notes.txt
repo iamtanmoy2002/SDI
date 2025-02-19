@@ -1,0 +1,36 @@
+java presistence API(JPA) is a specification in java for managing relational data in application using object-relational data in application using object rather than raw sql queries.
+
+the key features of JPA
+Object-relational mapping(ORM): maps java classes to database tables.
+Annotations: Uses @Entity, @Table, @Id, and other annotations for mapping. 
+Entity Manager API: Provides CURD Operations(presist(),find(),remove(),etc).
+JPQl
+
+Popular JPA Implementations
+    Hibernate(most widely used)
+JPA is just a specification while hibernate is an Implementation of jpa with extra features.
+JPA provides guidelines but hibernate extends JPA with additional capabilities like native sql queries and advanced chach
+
+feaure          JPA(java presistence API)                   Hibernate
+type            API(interface)                              An implementation of JPA + additional feature.
+Definition
+Implementation  Needs an implementation                     Implements JPA and adds extra ORM features
+                like Hibernate, Eclipselink,
+                or OpenJPA                  
+
+Query Language  JPQL (Java Persistence Query Language)      Supports JPQL+ HOL (Hibernate Query Language)
+Caching         Defines caching but doesn't implement it    Supports multiple caching mechanisms (First-Level, Second-Level)
+Configuration   Requires a persistence.sel file             Uses hibernate.cgf.xml configuration
+Vendor-Specific Limited to JPA-defined leature              Provides additional features like caching strategies, batch processing, and                                                         native SQL support
+Features         
+Performance     Standard ORM behavior                       Optimized with extra performance features
+
+Hibernate is an ORM(Object-Relational Mapping) framework for java that simplifies database operations by mapping java objects to database tables.
+
+Session Factory - Manages database connections.
+session - Used to platform CURD operations.
+Transaction - Handles database transactions.
+Query - used to write HQL
+Configuration- loads hibernate.cgf.xml
+
+Command to download the hybernate

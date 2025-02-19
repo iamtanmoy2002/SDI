@@ -1,0 +1,17 @@
+127.0.0.1 - - [18/Feb/2025:15:49:18 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:49:20 +0530] "GET /LMS_SDI/register.jsp HTTP/1.1" 200 246
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:49:22 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:49:41 +0530] "POST /LMS_SDI/register HTTP/1.1" 500 1470
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:52:08 +0530] "POST /LMS_SDI/register HTTP/1.1" 404 771
+127.0.0.1 - - [18/Feb/2025:15:52:29 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:52:30 +0530] "GET /LMS_SDI/register.jsp HTTP/1.1" 200 246
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:52:49 +0530] "POST /LMS_SDI/register HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:52:49 +0530] "GET /LMS_SDI/regsiter.jsp?error=RegistrationFailed HTTP/1.1" 404 742
+127.0.0.1 - - [18/Feb/2025:15:53:51 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:53:52 +0530] "GET /LMS_SDI/register.jsp HTTP/1.1" 200 246
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:54:07 +0530] "POST /LMS_SDI/register HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:54:07 +0530] "GET /LMS_SDI/register.jsp?error=RegistrationFailed HTTP/1.1" 200 264
+127.0.0.1 - - [18/Feb/2025:15:59:06 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:59:07 +0530] "GET /LMS_SDI/register.jsp HTTP/1.1" 200 246
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:59:32 +0530] "POST /LMS_SDI/register HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Feb/2025:15:59:35 +0530] "GET /LMS_SDI/login.jsp HTTP/1.1" 200 13

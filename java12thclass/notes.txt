@@ -1,0 +1,23 @@
+Functional interfaces:
+    ...
+Stream Operation:
+    Streams in java are used to process collections of onject in functional style. It filter elements based on condition
+Map:
+    Transforms each element in the Stream
+Reduce:
+    combines elements into single result.
+Built-in Functional interface:
+    java provides several built-in functional interfaces in the java.util.function package.
+
+    Function<String,Integer> lengthFunction = String::length;
+    System.out.println
+
+    consumer<T>:
+        import java.util.function.*;
+        public class Main{
+            public static void main(string[] args){
+                Consumer<String> 
+            }
+        }
+    Supplier<T>
+    BiFunction<T,U,R>

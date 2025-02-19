@@ -1,0 +1,4 @@
+ip address: 
+    its a unique numerical lable assigned to each devices connected to network,allowing it to be identified and communicated with other devices on the network
+ipv4 - 32 bits long.(192.168.1.1)
+ipv6 - its 128 bits long.

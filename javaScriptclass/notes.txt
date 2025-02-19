@@ -1,0 +1,6 @@
+the dom is a structured representation of a webpage. it allows java script to interact with and modify html and css. the browser automatically creates a dom tree when it loads an html document.
+
+change text content
+    document.getElementById("").textContent
+
+a promise in javascript is an object that represents the eventual completion(or failure) of an asynchronous operation. it allows handelling asynchronous task in a more readable way.

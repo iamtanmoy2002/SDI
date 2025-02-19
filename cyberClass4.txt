@@ -1,0 +1,64 @@
+28/1/25
+Task 1: Learn about all malwares
+Task 2: Learn about explorer.exe , svchost.exe, winlogon.exe, services.exe, smss.exe, lsass.exe, spoolsv.exe, system.exe
+Task 3: Learn about whats nat and bridge mode in virtualization
+
+Remote desktop accessc protocal brute force attack
+baracuda is the spam firewall used by govt organization.
+
+Benefits of Firewall:
+    It has in build ani virus 
+    It provides virtual access to system with vpn
+    Ani spam
+    bandwith 
+    isp
+    incoming outgoing traffic
+
+How to check system info
+    Win+R - winver
+    Win+R - dxdiag
+    Win+R - CMD - systeminfo
+
+Examples of OS:
+    Windows 10
+    Windows 11
+    macOS Ventura
+    macOS Monterey
+    Ubuntu desktop
+    Fedora Workstation
+    Linux Mint
+    Chrome macOS
+    FreeBSD
+    Zorin OS(Linux based but windows ui)
+    whonix, Qubes
+
+Use Cases:
+    web servers: Hosting websites and web application
+    database servers: Managing databases
+    file servers: sharing file across a network
+    mail server: handeling email communication
+    vertualization: running virtual machines in Vmware
+
+Linux-based server os:
+    Ubuntu:
+    CentOS:
+    Red Hat Enterprise Linux(RHEL):
+    Debian(kali linux, Parrot):
+Windows server os:
+    Windows 2022:
+    Windows 2019:
+    Windows 2016:
+    Windows 2012 R2(Install the iso):
+
+DLL files(Dynamic Link Libraries):
+    example: kernel32.dll, user32.dll, advapi32.dll
+Configuration Files:
+    .ini, .config, .xml, .json, .reg
+Support Files:
+    .sys, .inf(installation files), .cab(cabinet files), .vxd(virtual device drivers).
+log files:
+    .log, .evtx(event viewer logs).
+
+Ping allows a user to ping anothoer network IP address. This can help determine if the network is able to communicate with the network.
+
+

@@ -1,0 +1,73 @@
+Array is a collection of similar type of elements that have continuous memory location, which is generally used to prepare a list.
+
+Linear search:
+    suppose the data is to be searched is 57 in array= [11,2,9,13,57,25,7,33], 
+        compare a[0] with 57 = data not found as a[0] is 11
+        compare a[0] with 57 = data not found as a[0] is 2
+        compare a[0] with 57 = data not found as a[0] is 9
+        compare a[0] with 57 = data not found as a[0] is 12
+        compare a[0] with 57 = returns 57
+
+bubble sort:
+    run 2 loops 
+        check if curr element is greater than its next
+            if yes swap them
+            if not then dont swap, move to next element
+
+inheritance is a machanism to access the data and function of a parent. Its used to create relation between onjects. 
+    class Address{
+        plot;
+        district;
+    }
+
+    class Employee extends Address{
+        eid;
+        ename;
+    }
+
+    class Shop extends Address{
+        sid;
+        sname;
+    }
+
+The class from which properties and behaviour are inherited is base class or parent class.
+The class to which the properties and behaviour are inheritance to is child class
+    its used to implement relation between classes.
+    if all attribute enables code reusability and extensibility.
+    if all attribute is required to another class.
+
+Types of inheritance:
+    single:
+        class A{}
+        class B extends A{}
+    multilevel:
+        class A{}
+        class B extends A{}
+        class C extends B{}
+    multiple:
+        class A{}
+        class B{}
+        class C extends A,B{}
+    Hierarchical:
+        class A{}
+        class B extends A{}
+        class C extends A{}
+        class D extends A{}
+    Hybrid:
+        class A{}
+        class B extends A{}
+        class c extends B,C{}
+    Multipath:
+        class A{}
+        class B extends A{}
+        class C extends A{}
+        class D extends C,B{}
+
+Super keyword:
+    it allows access to members of parent class
+            access parent class Constructor
+            access parent class methods
+            access parent class fields
+
+Whats not inherited ?
+    in java inheritance allows a class(subclass) to acquire the properties and methods, but private members, Constructors, static methos and final methods cant be inherited

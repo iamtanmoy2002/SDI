@@ -1,0 +1,42 @@
+int float double -> data type
+if for while -> controll flow
+new -> operator
+
+int = integer variable
+String = charactor variable
+
+data type is used for declearing variable or functions of diff types. The type of a variable determines how much space it occupies in storage and how much space it occupies in storage. 
+
+1 byte = 1 cell of ram = 8 bit. 7 but is tge data set. max = 127, min = -128
+sign bit 0 means number is +ve 
+Sign bit 1 means number is -ve
+
+type conversion = explit conversion(done bye jvm), implisit conversion(done by dev).
+
+base value of a decimal is 10.(0,1,2,3,4,5,6,7,8,9)
+base value of a binary is 2.(0,1)
+base value of octal is 8.(0,1,2,3,4,5,6,7)
+base value of hexa deciam is 16.(0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F)
+
+unicode charactor is total of 65536, in this group only 256 are ascii code
+
+int is primitive type, Integer is Wrapper class. Wrapper class provide more feature and make java fully OOP.
+
+what is constant: its a value thst cannot be changed after it is defined.In programming constants are used to store values that are meant to remain the same throughout the execution of a program.
+
+float f =20.5f;(suffix)
+double d=20.5
+
+
+floating point memory representation
+step 1: make binary of that number
+step 2: make first floating point space.
+step 3: mantisa and exponent
+
+
+Control flow: 
+if = this used to execute code if some condition is there;
+else if = this is used to execute code if the if condition is false.
+
+for loop are typically used when the number of iterations is known before entering the loop;
+while loop is used to execute statement repeatedly until a given condition is satisfied.

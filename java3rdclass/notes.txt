@@ -1,0 +1,54 @@
+Object oriented programming allows programmers to create their own object that have methods and attributes
+
+adv of OOP:
+modular base 
+Reusability
+Maintainibility
+Scalability
+
+OOP is repeatable and organized
+
+class is a collection of data member and function member encapsulated in single entitiy. its a blue print of a object. its used to create user define data type. 
+syntax:
+    class ClassName{
+        data_member;
+        member_function;
+    }
+
+Programmer point of view object is the memory location. its a physical existance of a class
+syntax:
+    ClassName obj = new ClassName();
+
+in java object size are same but in python object size is not fixed. 
+    in python:
+    class Employee:
+        pass
+    e1=Employee()
+    setattr(e1, "eid", 100)
+    e2=Employee()
+    setattr(e2, "eid", 200)
+    setattr(e3, "ename", "prabin")
+
+Class Attribute / Static Data member:
+    class attribute allocate memory inside class
+    class attribute can be enjoyed by class also can be enjoyed by object. 
+    class attribute is also known as static data member. 
+Instance Attribute / non static data member
+    instance attribute allocate memory inside object.
+    instance attribute only can be enjoyed by object can not be enjoyed by class.
+    instance attribute is also known as non static data member. it allocate memory when create the object of class.
+
+in java "final" variable is constant variable
+
+Methof is a collection of expression and statements, A methof is a block of code which only runs when it is  called. you can pass data, known as parameteres, into a method. Methods are used to perform certain actions.
+ovj of method resue a block of code many time.
+
+Method overloading: 
+    multiple method 
+    having the same ClassName
+    different parameteres
+
+Constructor is a special type of method that is used to initialize new value to the state/attribute/data member.
+
+
+

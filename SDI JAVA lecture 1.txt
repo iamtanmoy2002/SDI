@@ -1,0 +1,22 @@
+22/1/25
+Cmd supports 2 type of commands internal and external
+internal commads are inbuild commads
+Task 1: find all the cmd commands with description and give example
+Task 2: know about command line argument.
+Task 3: what is the register?
+Task 4: Find list of command of jshell
+
+
+external command: its a name of a 3rd party app that path should be added in the env variable
+
+jshell  is tool that helps us to execute code without making a file. its called interactive machanism.
+
+interactive mode is refer to a programming or commandline env where you can enter commands or code snippets and the system executes them immediately, providing feedback or result in real-time. it allows to interact dynamically with the environment, easy to debug and learn. to exit we have to write "/exit" for python ctrl+z
+
+java is a statically typed language.
+
+3 styles : object oriented, monolythic, procedural
+
+Object Oriented Programming: according to opp operations must be performed inside a method and method must be present inside a class.
+
+Java is a statically typed compiled, object oriented genralized general purpose platform independent.

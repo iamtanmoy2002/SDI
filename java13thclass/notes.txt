@@ -1,0 +1,1 @@
+window means browser, document mean page

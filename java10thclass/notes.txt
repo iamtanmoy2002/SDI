@@ -1,0 +1,56 @@
+SQL - mysql,postgreSQL,Oracle.
+npSQL - mongoDB.
+Graph database - neo4j.
+time series - influxDB.
+
+SQL vs RDBMS
+    SQL and RDBMS are closely related but not the same.
+    SQL is a language used to manage and query data in relational databases.
+    RDBMS is a software to 
+
+SQL command:
+    DDL(data defination language) - CREATE, AFTER, DROP, RENAME, TRUNCATE
+    DML(data manupulation language) - INSERT, UPDATE, DELETE, SELECT
+    DCL(data control language) - GRANT, REVOKE
+    TCL(trasaction control language) - SAVEPOINT, ROLLBACK, COMMIT
+
+DDL applied over the structure. 
+
+command to set primary key:
+    alter table TableName add constraint pk Primary Key(Eid);
+Insert the above records:
+    insert into EMP values(100,'jitu',1000,'Manager',10);
+Insert multiple records:
+    insert into EMP values(100,'jitu',1000,'Manager',10),(100,'jitu',1000,'Manager',10);
+display all records:
+    select * from emp;
+    display empid, empname, sal from table;
+    display empid, empname, sal of table;
+Command to print row number:
+    slect *,ROW_NUMBER() OVER() rn from emp;
+Command to print last 1 records:
+    select *, ROW_NUMBER() OVER() as rn from emp order by rn desc limit 1;
+display last record of emp table without using key
+    select *, ROw_NUMBER() OVER() as rn from emp over 
+
+INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, CROSS JOIN, SELF JOIN.
+
+Select * from test1, test2;
+Select * form test1, test2 where test1.slno=test.slno;
+Select * from test1,test2 where test1.slno < test2.slno;
+
+A stored Procedure is a precompiled SQL code that can be executed multiple times. It helps in reusing SQL queries improving performance and maintaining secutiry.
+    it improves performace 
+    security
+    code reusability
+    faster execution
+    tansaction management
+
+delimiter Changes ";" to $$(anything)
+create procedure show_emp()
+    ->begin
+    ->select * from emp;
+    ->end
+    ->$$
+
+JDBC Driver connects to mySQL 

@@ -1,0 +1,13 @@
+windows menu->show menu->server->double click on the server pannel
+java server pages is a technology for developing web pages that support dynamic content which helps developers insert java code in html pages by making user of special jsp tags most, of which start with <% and end which %>
+
+using jsp you can collect input from user through web page froms present records from a data base or another source, and creat web pages.
+
+The JSP engine loads the jsp page from disk and convert it into a servlet content. This conversion is very simple in which all template text is converted to println() statements and all jsp elements are converted to java code that implements the corresponding dynamic behavior of the page.
+
+Scriptlet section <% %>
+contains java code code inside jsp
+expl
+    <% 
+        
+    %>

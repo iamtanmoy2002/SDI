@@ -1,0 +1,38 @@
+open port - the port is actively listening for incoming connections.
+closed port - the port is not active or has no service runnig on it.
+filtered - a firewall or security rule is blocking the port, preventing it from being detected as open or closed.
+unfiltered - the port is accessible but its state cannot be determined.
+open|filtered - the port might be open, but a firewall is interfering with its detection.
+closed|filtered - thr port is either closed or filtered, making it unclear whether ts actively blocked or simply not in use.
+
+ICMP Echo Scan(ping scan):
+    used to determine if a host is online by sending icmp echo requestes
+    nmap -sn <target ip>
+    eg: nmap -sn 192.168.1.1
+ICP connect scan(FUll open scan):
+    performs a full 3-way handshake
+    nmap -sT 192.168.1.1
+TCP syn scan:
+    sends only a syn packet. if the port is open the server replied with syn-ack, but the scanner does not complete the handshake(no ack).
+    nmap -sS 192.168.1.1
+Null, XMAS, and FIN scans:
+    sends a packet with no tcp flags set. if the port is closed, the target replies with RST.
+    nmap -sN 192.168.1.1
+XMAS Scan(FIN, PSH, URG Flags set):
+    sends a packet 
+    nmap -sX<tareget>
+FIN scan
+    nmap sF<target>
+UDP scan:
+    nmap -sU 192.168.1.1
+ports scan:
+    nmap -p 22,80,443 192.168.1.1
+    all ports nmap -p-
+Service version detection
+    nmap -sV -O 192.168.1.1
+Aggressive Scan:
+    syn scan, service detection, OS detection, Traceroute
+    nmap -A{target ip}
+IDLE Scan(Stealth Scan):
+    it uses zombi host to host to scan the target
+    nmap -sl {zombi ip} {target ip}

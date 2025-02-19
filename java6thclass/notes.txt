@@ -1,0 +1,54 @@
+task 15: what is java decompiler
+
+
+polymorphism means many + forms
+its three times
+    compiletime
+    runtime 
+    method hiding
+
+    class Pclass{
+        public int i=100;
+    }
+    class Cclass extends Pclass{
+        public int i=200;
+    }
+    class code{
+        public static void main(String[] arg){
+            Pclass g = new Pclass();
+            System.out.println(g.i); 
+        }
+    }
+
+Method overrring:
+    multiple method having the same name same parameter with virtual of parent method and override of child method in different class with inheritance is known as method overring mechanism.
+
+virtual keyword is used to modify a method, property, or event declared in the base class and allow it to be
+
+the method present within a parent a parent class with virtual the same method present into child class with override keyword.
+note: virtual and override keyword applicable over the member function not applicable over the data member.
+
+abstract class:
+    An abstract that is decleared but not defigned in the class. this can have data member abstract method, method body, constructor and even main() method.
+    The abstract is used to declass the common characteristics of subclasses. it cant be instantiated 
+    abstract class <class_name>{
+        ...
+    }
+
+incomplete class:
+    if a method is incomplete indise a class that class is also tereated as incomplete class.
+
+    interface similar to abstract class. it has only static constants and abstract methods. there are mainly following reason to use inter face 
+
+The java compiler converts methods of interface as public and abstract, data members as public, final and static by default.
+
+the implements keywordis used to implement an interface.
+
+a class implements interface but one interface extends another interface
+
+default methods in therface were introduced with java 8 to allow interfaces to have method implementation.
+
+defigned using the default keyword
+implementation in interface
+can be overridden
+avoids code duplication.

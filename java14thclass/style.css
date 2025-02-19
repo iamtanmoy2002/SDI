@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: red;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+/* div > p {
+  color: green;
+  font-size: 20px;
+  font-family: Arial;
+} */
+
+input[type="button"] {
+  color: blue;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.K {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  animation: abc 5s infinite;
+}
+
+@keyframes abc {
+  10% {
+    background-color: red;
+  }
+  20% {
+    background-color: green;
+  }
+  30% {
+    background-color: yellow;
+  }
+  40% {
+    background-color: blue;
+  }
+}

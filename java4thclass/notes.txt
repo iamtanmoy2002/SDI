@@ -1,0 +1,62 @@
+Task 1: learn about compareTo()
+Task 2: Learn about all String methods
+Task 3: Learn about all StringBuilder methods
+
+
+String is a sequence of characters.
+in java string is a class, its predefigned class present in java.lang package.
+
+two way to declear a string
+    String name = "Tanmay";
+    String name = new String("Hello");
+
+each time you create a string literal the JVM checks the string constant pool first. if the string is already there a reference to the pooled instance returns. if the sting does not exits in the pool, a new Sting object instantstiats then is placed in the pool.
+    Sting s1 = "hello";
+    Sting s2 = "hello"; // no new object is created
+
+"==" compares the reference but "str.equals(str2)" compares value.
+
+The StringBuilder class in java is a part of the java.lang package and provides a mutable sequesnce of characters.
+In StringBuilder class a new StringBuilder object is created and its mutable. That means if we want to change the string there is no need to create new changed string. but for normal case jvm creates new object and point to that when its changed.  
+
+"String" is immutable but "StringBuilder" is mutable
+
+Key features of StringBuilder:
+    mutable, performance, thread safety.
+
+"insert(int offset, String s)" : Inserts thr string at the specified index.
+    StringBuilder sb = new StringBuilder("hello");
+    sb.insert(5, "java");
+    System.out.println(sb); // output: hellojava
+
+Core package:
+    java.lang = Core classes like String, Math, Object, System
+    java.util = Utility classes like ArrayList, HashMap, Collections, Data, etc.
+    java.io = Input/output classes for file handeling and systems.
+    java.nio = Non-blocking.
+    java.net
+    java.sql
+    java.time
+
+Advanced package:
+    javax.swing = GUI components like jFrame, JPanel, JButton.
+    javafx = JavaFx
+    javax.servlet
+    java.security
+
+Specialized package:
+    javax.persistence = Java persistence api
+    javax.jms = Java Message Service Api
+    javax.xml = XML parsing and processing 
+
+Object life cycle:
+    it refers to a sequence of stages an object undergoes from its creation to oys destruction. Understanding the lifecycle is crucial for managing memory effectively and writing efficient programs.
+
+    Object creation: 
+        an object is created in memory using the new keyword. during this phase memory is allocated in heap.
+    Object in use:
+        As long as references exits, the object remains in memory and can be interacted with
+    Object Becomes Unreachable:
+        When no variable in the program refers to the object it becomes Unreachable. at this point the object is eligible for garbage collection. obj = null;
+    Garbage collection:
+        The java Garbage Collector automatically reclaim unused object memory made by unreachable object. This is handled by JVM.

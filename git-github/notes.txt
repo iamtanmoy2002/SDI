@@ -1,0 +1,29 @@
+git is a software specifically it is a distributed version control system that helps developers track changes in their code colaborate with others and manage software development efficiently.
+
+git works with github
+pip works with pypi
+
+github is a web-based platform for hosting, managing, and collaborating on git repository. it provides a remote server for storing code tracking changes and working with teams.
+
+it supports programming in multiple language and integrates with various tools for project management, devops, and ci/cd.
+
+Types of source code management:
+    1. Centralised (cvcs)
+    2. Distributed 
+
+Drawback of cvcs:
+    its not locally available meaning you always have to connect to be connected to a network to perfom any action.
+
+
+echo "# SDI" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/iamtanmoy2002/SDI.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/iamtanmoy2002/SDI.git
+git branch -M main
+git push -u origin main

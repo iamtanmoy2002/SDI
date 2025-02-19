@@ -1,0 +1,52 @@
+task 16: wildcard in Generic in java
+Object class:
+    object class of java is the parent class of all classes.
+    Every class in java imple
+    Feature: 
+    it provides basic methods that all java objects inherit.
+    these methods can be overridden in subclass for custom behavior.
+    its located at java.lang package.
+
+getClass returns class of an object
+
+why to use wrapper classes:
+    collection compatibility
+    Autoboxing & unboxing
+    Utility methods
+    null values handeling
+
+Userful Method in wrapper classes
+    // parsing string to Integer int num = Integer.parseInt("100");
+    // Converting integer to string str = Integer.toString (200);
+    // Finding Min and Max int min = Integer.min(10,20);
+    // int max = Integer.max(10,20);
+    
+key Feature of wrapper class:
+    some wrapper classes cache values 
+
+value same address same in python
+    i=100
+    j=100
+    id(i)==id(j)
+
+"==" checks memory only
+.equals() checks value only
+
+-128 to 127  Integer is strored at cache memory but for beond this bound everything Of Integer type java ceate a new memory to store if their is any same value.
+
+Generic classes:
+    A Generic class in java allows you to create a class ,interface or method that works with different data types while enuring type safety.it helps code reusability by defigning a single class that can be used with various data types.
+
+Generic Method:
+    public static <T> void printData(T data){
+        System.out.println("data:" + data);
+    }
+
+    public class GenericMethodExample{
+        public static void main(String[] arg){
+            Utility.printData(100);
+            Utility
+        }
+    } 
+    
+

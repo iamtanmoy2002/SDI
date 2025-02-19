@@ -1,0 +1,86 @@
+risk Identification:
+    Asset Identification.
+    Threat Identification.
+    Vulnerability Identification.
+    BIA- Business impact analysis.
+
+Risk assessment:
+    qualitative and quantitative assessment.
+    ISO:27005,NIST,FAIR.
+Risk Mitigation:
+    risk avoidance.
+    risk reduction.
+    risk transfer.
+    risk acceptance.
+Risk Monitoring:
+    incident trend analysis.
+    Vulnerability scanning and penetration testing.
+    threat intelligence and monitoring tools.
+
+Mitre framework.
+
+
+Incident response and recovery:
+    preparation.
+    detection and analysis.
+    Containment.
+    Eradication.
+    Recovery.
+    lessons learned.
+    
+IT risk strategies of the Business
+    vendor and thrid-party risk management.
+    incident response and recovery.
+    Risk culture and governance.
+    Emerging Technologies and trends.
+    Continuous Improvement.
+    Investment in security awareness and education.
+    Integration of Risk management frameworks(iso 27001)
+
+Risk assessment is the process of identifying, analyzing, and evaluating potential risks that could impact an organization's objectives.
+
+asset identification,
+
+Risk management framework
+    iso 31000:
+        this is one of the most widely recognized international standards for risk managemen. it provides principles, framework, and a process for managing risk.
+    COSO ERM:
+
+    NIST cyber Security framework:
+
+    PMI Risk management standards:
+
+    FAIR:
+    CRAMM:
+
+FAIR MODEL:
+    its designed by jack jones
+    assets, threat, Vulnerability, impact, risk.
+
+Identification of critical Business functions:
+    the first step is to identify all the critical and processes within an organization. These could include manufacturing, sales, customer service it infrastructuring, sales, customer service, it infrastructure, etc.
+assessment of potential risks:
+    once critical functions are Identified the next step is ti assess the potential risks and threat that could disrupt these functions.These risks could be natural disaster, cyber attacks, pandemics, supply chain disruptions, etc.
+impact analysis:
+    For each identified risk the bia evaluates the potential impact on the organization critical aspect.
+
+Business impact analysis(BIA).
+    prioritization of Business function, development of recovery strategies, testing and maintenance.
+
+BIA goals:
+    identify critical Business function.
+    assessing risk and Vulnerability.
+    quantify the impact.
+    setting recovery objectives
+    informing Business continuity planing.
+    prioritizing resources.
+
+BIA steps:
+    Initiation and planning:
+    Data collection:
+    Risk assessment:
+    impact analysis:
+    Recovery Time objectives(RTO) and Recovery Point objectives(RPO) Determination:
+    Mitigation strategies:
+    documenttation and reporting:
+    Review and update.

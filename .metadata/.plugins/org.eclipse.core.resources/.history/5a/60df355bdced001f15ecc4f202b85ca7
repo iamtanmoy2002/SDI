@@ -1,0 +1,6 @@
+package beans;
+import java
+
+public class DBUtil {
+
+}

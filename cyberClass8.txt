@@ -1,0 +1,3 @@
+Linux class 1
+
+we need atleast 2 partitions as '/' and '/swap'

@@ -1,0 +1,63 @@
+task : install XAMPP, Oracle XE;
+java collection:
+    its the framework provides a set of classes and interfaces that implement commonly reusable collection data structures. Collections allow you to store, retrive and manipulate data efficiently.
+
+list(Ordered cikkection, allows duplicated):
+    ArrayList, LinkedList, Vector, Stack
+
+set(Unordered, does not allow duplicates):
+    hashSet, LinkedHashSet, TreeSet
+
+Queue(FIFO allows ordering of elements):
+    PriorityQueue, ArrayDequeue
+
+Map interface(Not part of collection but part of framework):
+    Map(Store key-value pairs, key are unique):HashMap, LinkedListHasMap, TreeMap, Hastable
+
+
+ArrayList - list - Fast read operation, resizable array
+LinkedList - list - Fast insertion deletion
+HashSet - set - No duplicates, Unordered
+TreeSet - Set - Sorted Set, no duplicated
+HashMap - Map - key-value storage, fast lookup
+TreeMap - Map - sorted key value pairs
+PriorityQueue - Queue -
+
+Commonly Used Methods
+add(elements), remove(element), clear(), contains(elements), size(), isEmpty(), sort(), reverse()
+
+Commonly used:
+    List<String> names = new ArrayList<>(); // Dynamic array.
+
+Iterator allows you to iterate through collections like List safely.
+The forEach() allows to iterate through collections using lambda expression.// lamda expression means single line function.
+
+Set is an Unordered collection in java that does not allow duplicates.
+    set: HashSet, LinkedHashSet, TreeSet.
+
+Map is a collection of key-value pairs, where each key maps to a single value.
+
+in compareble interface we use compareTo() function:
+compareTo() method allows objects of a class to be compared with one another, enabling sorting. 
+    returns 0 when both obj are equals.
+    returns -ve when curr obj is smaller than other obj.
+    returns +ve when curr obj is grater than other obj.
+
+Compareble and Comparator...
+    Sorting logic   : Defines natual ordering       : allows multiple sorting critaria
+    Modifes class   : yes(implemens compareTo())    : No (Separate class or lambda)
+    Example         : Soritng by marks              : sorting students by name or marks
+    used with       : collections.sort(list)        : collections.sort(list,comparetor)
+
+Comparator allows custom sorting of objects by comparing two objects in the compare() method.
+    syntax = Collection.sort(student, (s1,s2)-> s1.name.compareTo(s2.name));
+
+in comparetor is idependent class we use compareTo() function:
+    returns 0 when both obj are equals.
+    returns -ve when curr obj is smaller than other obj.
+    returns +ve when curr obj is grater than other obj.
+
+set inorder - TreeSet
+set withorder - hashSet
+priorityQueue is collection that orders.
+hashtable is similar to HashMap but synchronized and thread safe.

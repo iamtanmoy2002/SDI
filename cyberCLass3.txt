@@ -1,0 +1,30 @@
+ncpa.cpl
+
+key features of cyber security:
+	Data protection
+	Threat prevention
+	Incident response
+	Access control
+	Encryption
+cyber security roles:
+	Data protection
+	Financial security
+	regulatory compliance
+	Trust maintenance
+	National security
+	Operational continuity
+
+Threat:
+	Its a potential cause of an unwanted incident that may result in harm to a system, network or organization, including the possibility of unauthorized 	access, data breaches, of service disruption.
+
+Attacks:
+	A deliberate action aimed at exploiting vulnerabilities to compromise the integrity, confidentiality, or availability of a system or data, including 	activities such as malware distribution unauthorized access and data manipulation.
+
+Man-in-the-middle attack:
+	Its the interruption of communication between two parties to steal or alert the information being exchanged.
+
+
+DMS: Document management system
+
+DID:  
+	
