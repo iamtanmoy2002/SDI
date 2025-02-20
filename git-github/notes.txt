@@ -27,3 +27,13 @@ git push -u origin main
 git remote add origin https://github.com/iamtanmoy2002/SDI.git
 git branch -M main
 git push -u origin main
+
+in github a branch is a paralle version of a repository. it allows you to work on different features, fixes or experiments without affecting the main codebase.
+
+git branch              :lists all local branches in git repo
+git branch -a           :lists all branches in git repo including both local and remote branches.
+git branch branchName   :create a branch with that branch name.
+git checkout branchName :switches to branch.
+git branch -d branchName:deleted branch if its merged.
+git branch -D branchName:deleted branch if its not merged.
+git 
